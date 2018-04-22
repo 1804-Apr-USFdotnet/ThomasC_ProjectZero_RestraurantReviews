@@ -1,0 +1,13 @@
+/Users/christhomas/Documents/Revature/RestaurantRatings/RestaurantTest/bin/Debug/netcoreapp2.0/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+/Users/christhomas/Documents/Revature/RestaurantRatings/RestaurantTest/bin/Debug/netcoreapp2.0/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+/Users/christhomas/Documents/Revature/RestaurantRatings/RestaurantTest/bin/Debug/netcoreapp2.0/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+/Users/christhomas/Documents/Revature/RestaurantRatings/RestaurantTest/bin/Debug/netcoreapp2.0/RestaurantTest.deps.json
+/Users/christhomas/Documents/Revature/RestaurantRatings/RestaurantTest/bin/Debug/netcoreapp2.0/RestaurantTest.runtimeconfig.json
+/Users/christhomas/Documents/Revature/RestaurantRatings/RestaurantTest/bin/Debug/netcoreapp2.0/RestaurantTest.runtimeconfig.dev.json
+/Users/christhomas/Documents/Revature/RestaurantRatings/RestaurantTest/bin/Debug/netcoreapp2.0/RestaurantTest.dll
+/Users/christhomas/Documents/Revature/RestaurantRatings/RestaurantTest/bin/Debug/netcoreapp2.0/RestaurantTest.pdb
+/Users/christhomas/Documents/Revature/RestaurantRatings/RestaurantTest/obj/Debug/netcoreapp2.0/RestaurantTest.csproj.CoreCompileInputs.cache
+/Users/christhomas/Documents/Revature/RestaurantRatings/RestaurantTest/obj/Debug/netcoreapp2.0/RestaurantTest.AssemblyInfoInputs.cache
+/Users/christhomas/Documents/Revature/RestaurantRatings/RestaurantTest/obj/Debug/netcoreapp2.0/RestaurantTest.AssemblyInfo.cs
+/Users/christhomas/Documents/Revature/RestaurantRatings/RestaurantTest/obj/Debug/netcoreapp2.0/RestaurantTest.dll
+/Users/christhomas/Documents/Revature/RestaurantRatings/RestaurantTest/obj/Debug/netcoreapp2.0/RestaurantTest.pdb

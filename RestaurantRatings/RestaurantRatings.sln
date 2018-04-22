@@ -1,0 +1,35 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantClient", "RestaurantRatings\RestaurantClient.csproj", "{BEB03737-7143-47A2-A7D6-8C234AD406F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantData", "RestaurantData\RestaurantData.csproj", "{2586D5E6-5F34-4C99-8458-88B4FE4A9519}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantBusiness", "RestaurantBusiness\RestaurantBusiness.csproj", "{EFD2B7FE-3999-4AB8-B0E1-3F7272CC1F45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantTest", "RestaurantTest\RestaurantTest.csproj", "{20D180B2-BD16-4F87-8115-661D38C464F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BEB03737-7143-47A2-A7D6-8C234AD406F7}.Debug|x86.ActiveCfg = Debug|x86
+		{BEB03737-7143-47A2-A7D6-8C234AD406F7}.Debug|x86.Build.0 = Debug|x86
+		{BEB03737-7143-47A2-A7D6-8C234AD406F7}.Release|x86.ActiveCfg = Release|x86
+		{BEB03737-7143-47A2-A7D6-8C234AD406F7}.Release|x86.Build.0 = Release|x86
+		{2586D5E6-5F34-4C99-8458-88B4FE4A9519}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2586D5E6-5F34-4C99-8458-88B4FE4A9519}.Debug|x86.Build.0 = Debug|Any CPU
+		{2586D5E6-5F34-4C99-8458-88B4FE4A9519}.Release|x86.ActiveCfg = Release|Any CPU
+		{2586D5E6-5F34-4C99-8458-88B4FE4A9519}.Release|x86.Build.0 = Release|Any CPU
+		{EFD2B7FE-3999-4AB8-B0E1-3F7272CC1F45}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EFD2B7FE-3999-4AB8-B0E1-3F7272CC1F45}.Debug|x86.Build.0 = Debug|Any CPU
+		{EFD2B7FE-3999-4AB8-B0E1-3F7272CC1F45}.Release|x86.ActiveCfg = Release|Any CPU
+		{EFD2B7FE-3999-4AB8-B0E1-3F7272CC1F45}.Release|x86.Build.0 = Release|Any CPU
+		{20D180B2-BD16-4F87-8115-661D38C464F5}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{20D180B2-BD16-4F87-8115-661D38C464F5}.Debug|x86.Build.0 = Debug|Any CPU
+		{20D180B2-BD16-4F87-8115-661D38C464F5}.Release|x86.ActiveCfg = Release|Any CPU
+		{20D180B2-BD16-4F87-8115-661D38C464F5}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
