@@ -18,6 +18,7 @@ namespace RestaurantReviews
             try
             {
                 RestaurantUtility rest = new RestaurantUtility();
+                DButilities db = new DButilities();
 
                 Console.WriteLine("------------Welcome to Revature Eats!------------");
                 Console.WriteLine("Please select from the following options:");
@@ -39,15 +40,18 @@ namespace RestaurantReviews
                         break;
                     case 2:
                         //Display all restaurants
-                        //rest.DisplayRestaurants();
+                        foreach (var restaurant in RestaurantUtility.DisplayAllRestaurants())
+                            Console.WriteLine(
+                                "Restaurant: " + restaurant.name + 
+                                " || Address: " + restaurant.address + 
+                                " || Email: " + restaurant.email + 
+                                " || Phone Number: " + restaurant.phone);
                         break;
                     case 3:
                         //Display info of each restaurant
-                        
                         break;
                     case 4:
                         //Display all reviews of a restaurant
-                        //rest.DisplayReviews();
                         break;
                     case 5:
                         Console.WriteLine("Search Restaurant Name: ");
