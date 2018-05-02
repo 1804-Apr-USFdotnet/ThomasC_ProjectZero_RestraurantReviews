@@ -53,15 +53,6 @@ namespace RestaurantBL
             return restaurants;
         }
 
-        public static List<Review> DisplayAllReviews()
-        {
-            List<Review> review = new List<Review>();
-            review = DButilities.GetAllReviews();
-
-            review = review.OrderBy(x => x.reviewer).ToList();
-            return review;
-        }
-
         public void DisplayTop3()
         {
             RestaurantsDbEntities dbutilities = new RestaurantsDbEntities();
