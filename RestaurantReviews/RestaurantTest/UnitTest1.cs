@@ -5,25 +5,25 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using RestaurantBL;
-using RestaurantDL;
 
 namespace RestaurantTest
 {
     [TestClass]
     public class UnitTest1
     {
-        Restaurant restaurant = new Restaurant();
+        RestaurantUtility restaurant = new RestaurantUtility();
 
         [TestMethod]
         public void TestMethod1()
         {
-            string expected = "Tampa, FL";
+            // Arrange
+            List<RestaurantUtility> expected = new List<RestaurantUtility>();
 
-            //act
-            var actual = restaurant.address;
+            // Act
+            //expected.Contains(actual, "Five");
 
-            //assert
-            Assert.AreEqual(expected, actual);
+            // Assert
+            //CollectionAssert.AreEqual(expected, actual);
         }
     }
 }

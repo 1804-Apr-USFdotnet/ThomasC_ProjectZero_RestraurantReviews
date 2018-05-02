@@ -11,52 +11,13 @@ using RestaurantDL;
 
 namespace RestaurantReviews
 {
-    public class Functions
-    {
-        public static List<Restaurant> restaurants = new List<Restaurant>();
-        public static void DisplayAllRestaurantNames()
-        {
-            foreach (Restaurant r in restaurants)
-            {
-                Console.WriteLine(r.name);
-            }
-        }
-
-        public static void DisplayRestaurantsAndInfo()
-        {
-            foreach (Restaurant r in restaurants)
-            {
-                Console.WriteLine("Name: " + r.name + " Street Address: " + r.address + " Phone Number: " + r.phone + " Email: " + r.email);
-            }
-        }
-
-        public static void DisplayReviews(Restaurant restaurant)
-        {
-            foreach (Review r in restaurant.Reviews)
-            {
-                Console.WriteLine("Rating: " + r.rating + " Comments: " + r.comments);
-            }
-        }
-
-        public static List<Restaurant> SortAscending(List<Restaurant> restaurants)
-        {
-            return restaurants.OrderBy(r => r.name).ToList();
-        }
-
-        public static List<Restaurant> SortDescending(List<Restaurant> restaurants)
-        {
-            return restaurants.OrderByDescending(r => r.name).ToList();
-        }
-    }
-
     class Program
     {
         public static void Main(string[] args)
         {
             try
             {
-                Restaurant NewRestaurant = new Restaurant();
-                Review NewReview = new Review();
+                RestaurantUtility rest = new RestaurantUtility();
 
                 Console.WriteLine("------------Welcome to Revature Eats!------------");
                 Console.WriteLine("Please select from the following options:");
@@ -73,16 +34,20 @@ namespace RestaurantReviews
                 switch (x)
                 {
                     case 1:
-                        Console.WriteLine("Display top 3 restaurants");
+                        //Display top 3 restaurants based on average rating
+                        rest.DisplayTop3();
                         break;
                     case 2:
-                        //NewRestaurant.DisplayAll();
+                        //Display all restaurants
+                        //rest.DisplayRestaurants();
                         break;
                     case 3:
-                        //NewRestaurant.DisplayInfo();
+                        //Display info of each restaurant
+                        
                         break;
                     case 4:
-                        Console.WriteLine("Display all reviews of a restaurant");
+                        //Display all reviews of a restaurant
+                        //rest.DisplayReviews();
                         break;
                     case 5:
                         Console.WriteLine("Search Restaurant Name: ");
@@ -109,7 +74,7 @@ namespace RestaurantReviews
             } catch(Exception e)
             {
                 Logger logger = LogManager.GetCurrentClassLogger();
-                logger.ErrorException("Error!", e);
+                logger.Error(e.ToString());
             }
             Console.ReadLine();
         }
